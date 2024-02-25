@@ -1,0 +1,13 @@
+
+
+
+# Kullanıcıdan bir sayı alınır
+sayi = int(input("Bir sayı girin: "))
+
+# Koşul ifadesiyle girilen sayı kontrol edilir
+if sayi < 50:
+    print("Girilen sayı 50'den küçüktür.")
+elif sayi > 50:
+    print("Girilen sayı 50'den büyüktür.")
+else:
+    print("Girilen sayı 50'ye eşittir.")
